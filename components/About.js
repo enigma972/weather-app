@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, ActivityIndicator, Button} from 'react-native';
+import {View, Text, StyleSheet, Button} from 'react-native';
 import globalStyle from './../Style'
 
 export default class About extends React.Component {

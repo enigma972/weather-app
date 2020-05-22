@@ -1,10 +1,10 @@
-import React from 'react';
-import {View, TextInput, StyleSheet, StatusBar, Button} from 'react-native';
+import React from 'react'
+import {View, TextInput, StyleSheet, StatusBar, Button} from 'react-native'
 import globalStyle from './../Style'
 
 export default class Search extends React.Component {
     constructor(props){
-        super(props);
+        super(props)
         this.state = {
             city: 'Kinshasa'
         }
@@ -14,14 +14,14 @@ export default class Search extends React.Component {
         title: 'Rechercher une ville',
         headerStyle: globalStyle.header,
         headerTitleStyle: globalStyle.headerTitle,
-    };
+    }
 
     setCity(city) {
         this.setState({city})
     }
 
     render() {
-        const {navigate} = this.props.navigation;
+        const {navigate} = this.props.navigation
 
         return (
             <View style={style.view}>
@@ -43,4 +43,4 @@ const style = StyleSheet.create({
     view: {
         margin: 20
     }
-});
+})

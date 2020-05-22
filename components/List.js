@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, ActivityIndicator, View } from 'react-native'
 import globalStyle from './../Style'
-import axios from 'axios'
+//import axios from 'axios'
 import WeatherRow from './weather/Row'
 
 export default class List extends React.Component {

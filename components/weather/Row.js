@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text, FlatList, StyleSheet } from 'react-native'
 import globalStyle from './../../Style'
-import moment from 'moment'
-import 'moment/locale/fr'
+//import moment from 'moment'
+//import 'moment/locale/fr'
 
-moment.locale('fr')
+//moment.locale('fr')
 
 
 export default class Row extends React.Component {
@@ -35,7 +35,7 @@ export default class Row extends React.Component {
     render() {
         return (
             <View style={style.view}>
-                <Text>{this.day()} {this.date()}</Text>
+                <Text></Text>
                 <Text>{this.props.day} *C</Text>
             </View>
         )
